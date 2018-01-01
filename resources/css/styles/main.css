@@ -3,9 +3,9 @@ html
 body{
   font-size: 14px;
   font-family: Open Sans
+  overflow-x:hidden;
 }
 .navbar{
-  height: 50px;
   font-size: 1.1rem;
   font-weight: bold;
   margin-bottom: 0;
@@ -16,13 +16,15 @@ body{
 
 .jumbotron{
   margin-top: 0;
-  height: 33rem;
+  padding: 0;
   background-image: url('../images/jumbotron-beer.jpg');
   background-size: cover;
   text-align: center;
+  margin-bottom: 0;
 }
 
 .jumbotron h1 {
+  margin-top: 0;
   padding-top: 11.85rem;
   font-family: "Monoton", sans-serif;
   font-size: 7.1rem;
@@ -34,25 +36,35 @@ body{
 }
 .jumbotron p {
   max-width: 51.3rem;
+  padding: 2.8rem 0;
   margin: auto;
   color: white;
 }
-.featured{
-  height: 330px;
+.botton{
+  padding-bottom: 11.85rem;
 }
+.featured-title{
+  padding-top: 1.5rem;
+}
+.featured-xl-img {
+  height: 20rem;
+}
+
 h4{
   font-size: 1.7rem;
   font-weight: bold;
   padding-bottom: 20px;
 }
 h5 {
-  padding-top: 1.5rem;
   font-size: 1.3rem;
   font-weight: bold;
-  padding-bottom: .75rem;
+  padding-bottom: .5rem;
 }
 .author {
   padding-bottom: .75rem;
+}
+.center-content{
+  line-height: 1.4;
 }
 .product li{
   line-height: 1.4;

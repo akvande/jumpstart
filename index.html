@@ -1,16 +1,18 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <meta charset="UTF-8">
+    <title>Jumpstart</title>
+   <meta charset="UTF-16">
    <meta name="description" content="Free Web tutorials">
    <meta name="keywords" content="HTML,CSS,XML,JavaScript">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <!-- Google fonts -->
+   <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700" rel="stylesheet">
+   <link href="https://fonts.googleapis.com/css?family=Monoton" rel="stylesheet">
    <!-- Latest compiled and minified CSS -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
   <link rel="stylesheet" href="./resources/css/reset.css">
   <link rel="stylesheet" href="./resources/css/styles/main.css">
-
-  <title>Jumpstart</title>
 </head>
 <body>
 <!-- Navigation -->
@@ -21,32 +23,33 @@
       <li><a href="#">Start a project</a></li>
       <li><a href="#">About us</a></li>
     </ul>
-        <a class="navbar-brand" href="#"><img src="./resources/css/images/logo.png"</a>
+        <a href="#"><img src="./resources/css/images/logo.png"></a>
     </div>
 </nav>
-<!-- banner images -->
-<div class="jumbotron jumbotron-fluid">
-  <div class="container-fluid">
-    <h1>GET THINKING</h1>
+<div class="jumbotron">
+  <div class="container">
+    <h1>GET THINKING.</h1>
     <p>Meet like minded individuals who will help fuel your creative juices.</p>
-    <p><a href="#gallery" class="btn btn-primary btn-lg">Jump in</a></p>
+    <div class="botton">
+      <a href="#gallery" class="btn btn-primary btn-lg">Jump in</a>
+    </div>
   </div>
 </div>
 <!-- center content -->
-<div class="container">
+<div class="container center-content">
+  <div class="row">
+    <h4 class="featured-title text-primary col-12">Featured Project</h4>
+  </div>
   <div class="row justify-content-center">
     <div>
-      <h4 class="text-primary">Featured Project</h4>
-      <img class="featured" src="./resources/css/images/featured-project.png" class="col-6">
+      <img class="featured-xl-img" src="./resources/css/images/featured-project.png" class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
     </div>
-    <div class="col-3">
-      <h4> </h4>
-      <h5>Project Title</h5>
-      <p class="author">by Person Person</p>
-      <p>I have been questioned by many people to disclose some of the greatest traffic generating techniques that I know of.  I am not to immediate to reveal them because I know the majority doesn't even take battle on them.  All I know is that work and you should be familiar with this too.</p>
+    <div class="col-xl-3  col-lg-3 col-md-6 col-sm-6 col-6">
+      <h5>DeFrost: A Documentary</h5>
+      <p class="author">by Leo De Firenze</p>
+      <p>DeFrost is a documentary about growing up in a little red house in a cold, harsh valley. This is a story about my mother's childhood. This film attempts to capture vignettes of her upbringing - her family, friends, pets, and eventual depature from a freezing valley in Northern Italy â€” through beautiful cinematography and narration.</p>
     </div>
-    <div class="product col-3">
-      <h4> </h4>
+    <div class="product col-xl-3  col-lg-3 col-md-6 col-sm-6 col-6">
       <ul><h5>Product Categories</h5>
         <li>Art</li>
         <li>Books</li>
@@ -67,7 +70,31 @@
       </ul>
     </div>
   </div>
-</div>
+  <div class="row">
+    <h4 class="text-primary col-12">Projects</h4>
+  </div>
+  <div class="row justify-content-center">
+    <img src="./resources/css/images/project1.png" class="col-xl-4">
+    <img src="./resources/css/images/project2.png" class="col-xl-4">
+    <img src="./resources/css/images/project3.png" class="col-xl-4">
+  </div>
+  <div class="row">
+    <div class="col-4">
+      <h5>Project Title</h5>
+      <p class="author">by Person Person</p>
+      <p>I have been questioned by many people to disclose some of the greatest traffic generating techniques that I know of.  I am not to immediate to reveal them because I know the majority doesn't even take battle on them.  All I know is that work and you should be familiar with this too.</p>
+    </div>
+    <div class="col-4">
+      <h5>Project Title</h5>
+      <p class="author">by Person Person</p>
+      <p>I have been questioned by many people to disclose some of the greatest traffic generating techniques that I know of.  I am not to immediate to reveal them because I know the majority doesn't even take battle on them.  All I know is that work and you should be familiar with this too.</p>
+    </div>
+    <div class="col-4">
+      <h5>Project Title</h5>
+      <p class="author">by Person Person</p>
+      <p>I have been questioned by many people to disclose some of the greatest traffic generating techniques that I know of.  I am not to immediate to reveal them because I know the majority doesn't even take battle on them.  All I know is that work and you should be familiar with this too.</p>
+    </div>
+  </div>
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js" integrity="sha384-a5N7Y/aK3qNeh15eJKGWxsqtnX/wWdSZSKp+81YjTmS15nvnvxKHuzaWwXHDli+4" crossorigin="anonymous"></script>
