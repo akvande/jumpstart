@@ -1,3 +1,4 @@
+/* Universal Styles */
 html
 body{
   font-size: 14px;
@@ -12,6 +13,7 @@ body{
 .nav li{
   padding-right: 2rem;
 }
+
 .jumbotron{
   margin-top: 0;
   height: 33rem;
@@ -33,4 +35,25 @@ body{
 .jumbotron p {
   max-width: 51.3rem;
   margin: auto;
+  color: white;
+}
+.featured{
+  height: 330px;
+}
+h4{
+  font-size: 1.7rem;
+  font-weight: bold;
+  padding-bottom: 20px;
+}
+h5 {
+  padding-top: 1.5rem;
+  font-size: 1.3rem;
+  font-weight: bold;
+  padding-bottom: .75rem;
+}
+.author {
+  padding-bottom: .75rem;
+}
+.product li{
+  line-height: 1.4;
 }
