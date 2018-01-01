@@ -1,0 +1,36 @@
+html
+body{
+  font-size: 14px;
+  font-family: Open Sans
+}
+.navbar{
+  height: 50px;
+  font-size: 1.1rem;
+  font-weight: bold;
+  margin-bottom: 0;
+}
+.nav li{
+  padding-right: 2rem;
+}
+.jumbotron{
+  margin-top: 0;
+  height: 33rem;
+  background-image: url('../images/jumbotron-beer.jpg');
+  background-size: cover;
+  text-align: center;
+}
+
+.jumbotron h1 {
+  padding-top: 11.85rem;
+  font-family: "Monoton", sans-serif;
+  font-size: 7.1rem;
+  color: white;
+  text-shadow: -1px -1px 0 #000,
+  -1px -1px 0 #000,
+  -1px 1px 0 #000,
+  1px 1px 0 #000;
+}
+.jumbotron p {
+  max-width: 51.3rem;
+  margin: auto;
+}
